@@ -1,11 +1,3 @@
-
-# Project Workspace
-
-This repl gives you a place to put your project work.  Plese add your data and script files to this workspace.
-
-Note that you can add files from your computer by dragging them in to the files pane
-
-
 # Data set locations
 
 You are encouraged to bring in relevant data sets of your own, however these are the ones that we have noted in the project discussion:
