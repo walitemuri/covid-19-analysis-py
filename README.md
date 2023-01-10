@@ -19,6 +19,8 @@ Example Plot:
 
 ![plot1](https://user-images.githubusercontent.com/108627530/211439214-a534f0bc-b75d-44b5-bece-abe83a529cbe.svg)
 
+
+
 Question 2) How many students from a specified school board in Ontario got COVID-19?
 
 Plot 2 is focused on analyzing which regions in Ontario were able to contain the virus and which regions were not as successful. 
