@@ -29,6 +29,26 @@ Example Plot:
 
 ![plot2](https://user-images.githubusercontent.com/108627530/211439339-209d9819-2a2d-4321-af8a-9d7eb4685065.svg)
 
+### Question 3) How does the quantity of positive COVID-19 cases differ between each age group over time?
+
+Plot 3 illustrates the relationship between COVID-19 cases across different age groups and how it changes over time with the introduction of complex
+variants. 
+
+Age Groups:
+* 90+
+* 80-89
+* 70-79
+* 60-69
+* 50-59
+* 40-49
+* 30-39
+* 20-29
+* <20
+
+Example Plot:
+
+![plot3](https://user-images.githubusercontent.com/108627530/211439379-76fa8ff6-db1b-48b1-81d8-a71e4c8f926d.svg)
+
 ##Dependencies
 
 ##Running
@@ -49,6 +69,4 @@ Example Plot:
 
 
 
-
-![plot3](https://user-images.githubusercontent.com/108627530/211439379-76fa8ff6-db1b-48b1-81d8-a71e4c8f926d.svg)
 ![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
