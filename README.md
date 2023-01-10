@@ -6,7 +6,7 @@ COVID-19 Regional Analysis
 
 Using a collection of Data sets (listed below) relating to COVID-19 me and my peers used 4 distinct approaches to analyze the information in order to extract relevant corelations. Each generated plot seeks to aid in answering 4 distinct questions that relate to the handling and policy decisions for the COVID-19 pandemic. 
 
-Question 1) What percentage of each vaccination group in the Ontario population got admitted to ICU?
+### Question 1) What percentage of each vaccination group in the Ontario population got admitted to ICU?
 
 The first plot is focused on examining the relationship between Vaccination and COVID-19 patients being admitted into the ICU.
 
@@ -21,7 +21,7 @@ Example Plot:
 
 
 
-Question 2) How many students from a specified school board in Ontario got COVID-19?
+### Question 2) How many students from a specified school board in Ontario got COVID-19?
 
 Plot 2 is focused on analyzing which regions in Ontario were able to contain the virus and which regions were not as successful. 
 
