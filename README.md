@@ -45,7 +45,7 @@ Example Plot:
 Plot 3 illustrates the relationship between COVID-19 cases across different age groups and how it changes over time with the introduction of complex
 variants. 
 
-Data Sest: 
+Data Sets: 
 
 https://data.ontario.ca/dataset
 https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350
@@ -99,9 +99,7 @@ seaborn==0.12.2
 six==1.16.0
 ```
 
-## Running
-
-### Preprocessing
+## Preprocessing
 
 In order to plot the relevant data in an efficient manner, the data sets are preprocessed into csv files containing the only the fields relevant to each plot. Each plotting script has a corresponding preprocessing script that will need to be run beforehands, the steps to accomplish this are as follows:
 
@@ -138,7 +136,7 @@ Upon running all 4 scripts the following files should be output:
 * question3_preprocessed.csv
 * question4_preprocessed.csv
 
-### Plotting The Graphs
+## Plotting The Graphs
 
 In order to plot the graph the plotting scripts must be run, the user can specify certain commandline arguments for each to control output.
 
@@ -259,6 +257,21 @@ python {q4_plotting_script} {q4_processed_file} {q4_plotting_file} {start_year} 
 ```
 python Plotting/question4_plotting.py question4_preprocessed.csv question4_plotted_data.csv 2020 11 01 2023 11 01 "TORONTO" "CITY OF OTTAWA" "NIAGARA REGION" plot4.pdf
 ```
+
+## Author Information
+
+* Roman Blotsky
+1168123
+
+* Mehtab Kaur
+1054984
+
+* Kirisan Suthanthireswaran
+1186029
+
+* Wali Temuri	
+1183379
+
 
 ## Data Set
 
