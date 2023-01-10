@@ -162,9 +162,11 @@ Enter Root Directory and run:
 
 ```
 python {q1_plotting_script} {q1_processed_file} {q1_plotting_file} {start_year} {start_month} {start_day} {end_year} {end_month} {end_day} {graphics_file}
+```
 
 Example Run:
 
+```
 python Plotting/question1_plotting.py question1_preprocessed.csv question1_plotted_data.csv 2020 8 10 2022 3 10 plot1.pdf
 ```
 
@@ -187,21 +189,75 @@ There are 10 commandline arguments and 1 optional argument:
 Run on commandline:
 
 ```
-python {q1_plotting_script} {q1_processed_file} {q1_plotting_file} {start_year} {start_month} {start_day} {end_year} {end_month} {end_day} {school_board} {graphics_file}
+python {q2_plotting_script} {q2_processed_file} {q2_plotting_file} {start_year} {start_month} {start_day} {end_year} {end_month} {end_day} {school_board} {graphics_file}
+```
 
 Example run:
 
+```
 python Plotting/question2_plotting.py question2_preprocessed.csv question2_plotted_data.csv 2020 8 10 2022 3 10 'Peel District School Board' plot2.pdf
 ```
 
 #### Question 3 Plotting:
+
+There are 9 commandline arguments and 1 optional argument: 
+
+* q3_processed_file (string)
+* q3_plotting_file (string)
+* start_year (integer)
+* start_month (integer)
+* start_day (integer)
+* end_year (integer)
+* end_month (integer)
+* end_day (integer)
+* graphic file (string)
+* debugOn (integer, optional)
+
+
+To run on commandline:
+python Plotting/question3_plotting.py question3_preprocessed.csv question3_plotted_data.csv 2021 8 10 2022 1 29 plot3.pdf
+
+Run on cmnd line:
+
 ```
-python Preprocessing/question3_preprocess.py Data/covid_case_file/conposcovidloc.csv > question3_preprocessed.csv
+python {q3_plotting_script} {q3_processed_file} {q3_plotting_file} {start_year} {start_month} {start_day} {end_year} {end_month} {end_day} {graphics_file}
+
+```
+
+
+
+Example Run:
+
+```
+python Plotting/question3_plotting.py question3_preprocessed.csv question3_plotted_data.csv 2021 8 10 2022 1 29 plot3.pdf
 ```
 
 #### Question 4 Plotting:
+
+There are 8 commandline arguments and 1 optional argument: 
+
+* outbreak_data_file  (string)
+* plotting_data_file (string)
+* start_year (integer)
+* start_month (integer)
+* start_day (integer)
+* end_year (integer)
+* end_month (integer)
+* end_day (integer)
+* phu_name1
+* phu_name2
+* phu_name3
+* graphing_file (string)
+    
+To run on commandline:
+
 ```
-python Preprocessing/question4_preprocess.py Data/ongoing_outbreaks_phu.csv > question4_preproceseed.csv
+python {q4_plotting_script} {q4_processed_file} {q4_plotting_file} {start_year} {start_month} {start_day} {end_year} {end_month} {end_day} {phu_name1} {phu_name2} {phu_name3} {graphics_file}
+
+```
+
+```
+python Plotting/question4_plotting.py question4_preprocessed.csv question4_plotted_data.csv 2020 11 01 2023 11 01 "TORONTO" "CITY OF OTTAWA" "NIAGARA REGION" plot4.pdf
 ```
 
 ## Data Set
