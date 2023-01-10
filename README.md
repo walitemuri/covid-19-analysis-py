@@ -2,12 +2,13 @@
 
 COVID-19 Regional Analysis
 
-# Description
+## Description
 
-Using a collection of Data sets relating to COVID-19 me and my peers used 4 distinct approaches to analyze the information in order to extract relevant 
-corelations. Each generated plot seeks to aid in answering 4 distinct questions that relate to the handling and policy decisions for handling the COVID-19 pandemic. 
+Using a collection of Data sets (listed below) relating to COVID-19 me and my peers used 4 distinct approaches to analyze the information in order to extract relevant corelations. Each generated plot seeks to aid in answering 4 distinct questions that relate to the handling and policy decisions for the COVID-19 pandemic. 
 
 Question 1) What percentage of each vaccination group in the Ontario population got admitted to ICU?
+
+The first plot is focused on examining the relationship between Vaccination and COVID-19 patients being admitted into the ICU.
 
 Vaccination Groups: 
 * Partially Vaccinated
@@ -18,7 +19,17 @@ Example Plot:
 
 ![plot1](https://user-images.githubusercontent.com/108627530/211439214-a534f0bc-b75d-44b5-bece-abe83a529cbe.svg)
 
-Question 2)
+Question 2) How many students from a specified school board in Ontario got COVID-19?
+
+Plot 2 is focused on analyzing which regions in Ontario were able to contain the virus and which regions were not as successful. 
+
+Example Plot:
+
+![plot2](https://user-images.githubusercontent.com/108627530/211439339-209d9819-2a2d-4321-af8a-9d7eb4685065.svg)
+
+##Dependencies
+
+##Running
 
 ## Data Set
 
@@ -37,6 +48,5 @@ Question 2)
 
 
 
-![plot2](https://user-images.githubusercontent.com/108627530/211439339-209d9819-2a2d-4321-af8a-9d7eb4685065.svg)
 ![plot3](https://user-images.githubusercontent.com/108627530/211439379-76fa8ff6-db1b-48b1-81d8-a71e4c8f926d.svg)
 ![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
