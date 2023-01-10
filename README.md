@@ -1,6 +1,26 @@
-# Data set locations
+# Project Title
 
-You are encouraged to bring in relevant data sets of your own, however these are the ones that we have noted in the project discussion:
+COVID-19 Regional Analysis
+
+# Description
+
+Using a collection of Data sets relating to COVID-19 me and my peers used 4 distinct approaches to analyze the information in order to extract relevant 
+corelations. Each generated plot seeks to aid in answering 4 distinct questions that relate to the handling and policy decisions for handling the COVID-19 pandemic. 
+
+Question 1) What percentage of each vaccination group in the Ontario population got admitted to ICU?
+
+Vaccination Groups: 
+* Partially Vaccinated
+* Fully Vaccinated (2 shots at this time)
+* No Vaccination
+
+Example Plot:
+
+![plot1](https://user-images.githubusercontent.com/108627530/211439214-a534f0bc-b75d-44b5-bece-abe83a529cbe.svg)
+
+Question 2)
+
+## Data Set
 
 * [Confirmed Cases of COVID-19](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario) : this is the data set we examined last week
 
@@ -13,10 +33,10 @@ You are encouraged to bring in relevant data sets of your own, however these are
 
 * [Statistics Canada Health Profile Data](https://www12.statcan.gc.ca/health-sante/82-228/search-recherche/lst/page.cfm?Lang=E&GeoLevel=PR&GEOCODE=35)
     * This data provides demographic and other information about specific Public Health Units within the province
-    * Statistics Canada ("StatsCan") has a variety of data tools, including the (Census)[https://www.statcan.gc.ca/eng/census?MM=1] of which the Public Health Profile data is a part
 
 
-![plot1](https://user-images.githubusercontent.com/108627530/211439214-a534f0bc-b75d-44b5-bece-abe83a529cbe.svg)
+
+
 ![plot2](https://user-images.githubusercontent.com/108627530/211439339-209d9819-2a2d-4321-af8a-9d7eb4685065.svg)
 ![plot3](https://user-images.githubusercontent.com/108627530/211439379-76fa8ff6-db1b-48b1-81d8-a71e4c8f926d.svg)
 ![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
