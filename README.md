@@ -49,6 +49,11 @@ Example Plot:
 
 ![plot3](https://user-images.githubusercontent.com/108627530/211439379-76fa8ff6-db1b-48b1-81d8-a71e4c8f926d.svg)
 
+### Question 4) What is the quantity of outbreaks by Public Health Unit in Ontario over time?
+
+Example plot:
+![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
+
 ##Dependencies
 
 ##Running
@@ -67,6 +72,3 @@ Example Plot:
 * [Statistics Canada Health Profile Data](https://www12.statcan.gc.ca/health-sante/82-228/search-recherche/lst/page.cfm?Lang=E&GeoLevel=PR&GEOCODE=35)
     * This data provides demographic and other information about specific Public Health Units within the province
 
-
-
-![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
