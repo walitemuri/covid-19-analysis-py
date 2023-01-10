@@ -4,7 +4,9 @@ COVID-19 Regional Analysis
 
 ## Description
 
-Using a collection of Data sets (listed below) relating to COVID-19 me and my peers used 4 distinct approaches to analyze the information in order to extract relevant corelations. Each generated plot seeks to aid in answering 4 distinct questions that relate to the handling and policy decisions for the COVID-19 pandemic. 
+Using a collection of Data sets (listed below) relating to COVID-19 me and my peers used 4 distinct approaches to analyze the information in order to extract relevant corelations. Each generated plot seeks to aid in answering 4 relevant questions that relate to the handling and policy decisions for the COVID-19 pandemic. 
+
+The date range (x - axis) is taken in as a command-line argument, the user is free to decide the desired timeframe to analyze. More information is available in the Running section.
 
 ### Question 1) What percentage of each vaccination group in the Ontario population got admitted to ICU?
 
@@ -103,15 +105,104 @@ six==1.16.0
 
 In order to plot the relevant data in an efficient manner, the data sets are preprocessed into csv files containing the only the fields relevant to each plot. Each plotting script has a corresponding preprocessing script that will need to be run beforehands, the steps to accomplish this are as follows:
 
-#### Question 1:
+#### Question 1 Preprocessing:
+
+Enter root folder and run:
+
+```
+python Preprocessing/question1_preprocess.py Data/vaccine_doses_given.csv Data/icu_data_by_vac_status.csv > question1_preprocessed.csv
+```
 
 #### Question 2:
 
+```
+python Preprocessing/question2_preprocess.py Data/schoolrecentcovid2021_2022_2022-02-08_22-17.csv > question2_preprocessed.csv
+```
+
 #### Question 3:
+
+```
+python Preprocessing/question3_preprocess.py Data/covid_case_file/conposcovidloc.csv > question3_preprocessed.csv
+```
 
 #### Question 4:
 
-### Plotting
+```
+python Preprocessing/question4_preprocess.py Data/ongoing_outbreaks_phu.csv > question4_preproceseed.csv
+```
+
+Upon running all 4 scripts the following files should be output:
+
+* question1_preprocessed.csv
+* question2_preprocessed.csv
+* question3_preprocessed.csv
+* question4_preprocessed.csv
+
+### Plotting The Graphs
+
+In order to plot the graph the plotting scripts must be run, the user can specify certain commandline arguments for each to control output.
+
+#### Question 1 Plotting:
+
+There are 8 commandline arguments and 1 optional argument: 
+   
+* q1_plotting_file (string)
+* start_year (integer)
+* start_month (integer)
+* start_day (integer)
+* end_year (integer)
+* end_month (integer)
+* end_day (integer)
+* graphics_file (string)
+* debugOn (integer, optional)
+    
+Output: The default output is .svg file, you can specify the file format in the commandline args.
+    
+Enter Root Directory and run:
+
+```
+python {q1_plotting_script} {q1_processed_file} {q1_plotting_file} {start_year} {start_month} {start_day} {end_year} {end_month} {end_day} {graphics_file}
+
+Example Run:
+
+python Plotting/question1_plotting.py question1_preprocessed.csv question1_plotted_data.csv 2020 8 10 2022 3 10 plot1.pdf
+```
+
+#### Question 2 Plotting:
+
+There are 10 commandline arguments and 1 optional argument: 
+
+* q2_processed_file (string)
+* q2_plotting_file (string)
+* start_year (integer)
+* start_month (integer)
+* start_day (integer)
+* end_year (integer)
+* end_month (integer)
+* end_day (integer)
+* school_board (string)
+* graphics_filename (string)
+* debugOn (integer, optional)
+
+Run on commandline:
+
+```
+python {q1_plotting_script} {q1_processed_file} {q1_plotting_file} {start_year} {start_month} {start_day} {end_year} {end_month} {end_day} {school_board} {graphics_file}
+
+Example run:
+
+python Plotting/question2_plotting.py question2_preprocessed.csv question2_plotted_data.csv 2020 8 10 2022 3 10 'Peel District School Board' plot2.pdf
+```
+
+#### Question 3 Plotting:
+```
+python Preprocessing/question3_preprocess.py Data/covid_case_file/conposcovidloc.csv > question3_preprocessed.csv
+```
+
+#### Question 4 Plotting:
+```
+python Preprocessing/question4_preprocess.py Data/ongoing_outbreaks_phu.csv > question4_preproceseed.csv
+```
 
 ## Data Set
 
