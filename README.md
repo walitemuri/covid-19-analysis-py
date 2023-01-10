@@ -6,6 +6,12 @@ COVID-19 Regional Analysis
 
 Using a collection of Data sets (listed below) relating to COVID-19 me and my peers used 4 distinct approaches to analyze the information in order to extract relevant corelations. Each generated plot seeks to aid in answering 4 relevant questions that relate to the handling and policy decisions for the COVID-19 pandemic. 
 
+Python Libraries Used:
+
+* Seaborn
+* Pandas
+* Matplotlib
+
 The date range (x - axis) is taken in as a command-line argument, the user is free to decide the desired timeframe to analyze. More information is available in the Running section.
 
 ### Question 1) What percentage of each vaccination group in the Ontario population got admitted to ICU?
