@@ -103,7 +103,7 @@ six==1.16.0
 
 In order to plot the relevant data in an efficient manner, the data sets are preprocessed into csv files containing the only the fields relevant to each plot. Each plotting script has a corresponding preprocessing script that will need to be run beforehands, the steps to accomplish this are as follows:
 
-#### Question 1 Preprocessing:
+### Question 1 Preprocessing:
 
 Enter root folder and run:
 
@@ -111,19 +111,19 @@ Enter root folder and run:
 python Preprocessing/question1_preprocess.py Data/vaccine_doses_given.csv Data/icu_data_by_vac_status.csv > question1_preprocessed.csv
 ```
 
-#### Question 2:
+### Question 2:
 
 ```
 python Preprocessing/question2_preprocess.py Data/schoolrecentcovid2021_2022_2022-02-08_22-17.csv > question2_preprocessed.csv
 ```
 
-#### Question 3:
+### Question 3:
 
 ```
 python Preprocessing/question3_preprocess.py Data/covid_case_file/conposcovidloc.csv > question3_preprocessed.csv
 ```
 
-#### Question 4:
+### Question 4:
 
 ```
 python Preprocessing/question4_preprocess.py Data/ongoing_outbreaks_phu.csv > question4_preproceseed.csv
@@ -140,7 +140,7 @@ Upon running all 4 scripts the following files should be output:
 
 In order to plot the graph the plotting scripts must be run, the user can specify certain commandline arguments for each to control output.
 
-#### Question 1 Plotting:
+### Question 1 Plotting:
 
 There are 8 commandline arguments and 1 optional argument: 
    
@@ -168,7 +168,7 @@ Example Run:
 python Plotting/question1_plotting.py question1_preprocessed.csv question1_plotted_data.csv 2020 8 10 2022 3 10 plot1.pdf
 ```
 
-#### Question 2 Plotting:
+### Question 2 Plotting:
 
 There are 10 commandline arguments and 1 optional argument: 
 
@@ -196,7 +196,7 @@ Example run:
 python Plotting/question2_plotting.py question2_preprocessed.csv question2_plotted_data.csv 2020 8 10 2022 3 10 'Peel District School Board' plot2.pdf
 ```
 
-#### Question 3 Plotting:
+### Question 3 Plotting:
 
 There are 9 commandline arguments and 1 optional argument: 
 
@@ -230,7 +230,7 @@ Example Run:
 python Plotting/question3_plotting.py question3_preprocessed.csv question3_plotted_data.csv 2021 8 10 2022 1 29 plot3.pdf
 ```
 
-#### Question 4 Plotting:
+### Question 4 Plotting:
 
 There are 8 commandline arguments and 1 optional argument: 
 
