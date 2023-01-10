@@ -15,6 +15,13 @@ Vaccination Groups:
 * Fully Vaccinated (2 shots at this time)
 * No Vaccination
 
+Data Sets: 
+
+https://data.ontario.ca/en/dataset/covid-19-vaccine-data-in-ontario
+https://data.ontario.ca/en/dataset/covid-19-vaccine-data-in-ontario/resource/eed63cf2-83dd-4598-b337-b288c0a89a16
+https://data.ontario.ca/en/dataset/covid-19-vaccine-data-in-ontario/resource/274b819c-5d69-4539-a4db-f2950794138c
+ 
+
 Example Plot:
 
 ![plot1](https://user-images.githubusercontent.com/108627530/211439214-a534f0bc-b75d-44b5-bece-abe83a529cbe.svg)
@@ -25,6 +32,8 @@ Example Plot:
 
 Plot 2 is focused on analyzing which regions in Ontario were able to contain the virus and which regions were not as successful. 
 
+Data Sets: https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/ 
+
 Example Plot:
 
 ![plot2](https://user-images.githubusercontent.com/108627530/211439339-209d9819-2a2d-4321-af8a-9d7eb4685065.svg)
@@ -33,6 +42,11 @@ Example Plot:
 
 Plot 3 illustrates the relationship between COVID-19 cases across different age groups and how it changes over time with the introduction of complex
 variants. 
+
+Data Sest: 
+
+https://data.ontario.ca/dataset
+https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350
 
 Age Groups:
 * 90+
@@ -53,11 +67,16 @@ Example Plot:
 
 Finally, the final question plots the quantity of outbreaks by PHU, multiple are plotted at the same time in order to allow comparison.
 
+Data Sets: 
+
+https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data
+https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data/resource/36048cc1-3c47-48ff-a49f-8c7840e32cc2
+
 Example plot:
 
 ![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
 
-##Dependencies
+## Dependencies
 
 * Python 3.10+
 
@@ -78,7 +97,21 @@ seaborn==0.12.2
 six==1.16.0
 ```
 
-##Running
+## Running
+
+### Preprocessing
+
+In order to plot the relevant data in an efficient manner, the data sets are preprocessed into csv files containing the only the fields relevant to each plot. Each plotting script has a corresponding preprocessing script that will need to be run beforehands, the steps to accomplish this are as follows:
+
+#### Question 1:
+
+#### Question 2:
+
+#### Question 3:
+
+#### Question 4:
+
+### Plotting
 
 ## Data Set
 
