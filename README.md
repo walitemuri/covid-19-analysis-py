@@ -51,10 +51,32 @@ Example Plot:
 
 ### Question 4) What is the quantity of outbreaks by Public Health Unit in Ontario over time?
 
+Finally, the final question plots the quantity of outbreaks by PHU, multiple are plotted at the same time in order to allow comparison.
+
 Example plot:
+
 ![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
 
 ##Dependencies
+
+* Python 3.10+
+
+```
+contourpy==1.0.6
+cycler==0.11.0
+fonttools==4.38.0
+kiwisolver==1.4.4
+matplotlib==3.6.2
+numpy==1.24.1
+packaging==23.0
+pandas==1.5.2
+Pillow==9.4.0
+pyparsing==3.0.9
+python-dateutil==2.8.2
+pytz==2022.7
+seaborn==0.12.2
+six==1.16.0
+```
 
 ##Running
 
