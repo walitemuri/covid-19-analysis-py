@@ -16,3 +16,8 @@ You are encouraged to bring in relevant data sets of your own, however these are
     * Statistics Canada ("StatsCan") has a variety of data tools, including the (Census)[https://www.statcan.gc.ca/eng/census?MM=1] of which the Public Health Profile data is a part
 
 
+
+[plot1.pdf](https://github.com/walitemuri/covid-19-response/files/10378064/plot1.pdf)
+[plot2.pdf](https://github.com/walitemuri/covid-19-response/files/10378075/plot2.pdf)
+[plot3.pdf](https://github.com/walitemuri/covid-19-response/files/10378085/plot3.pdf)
+![plot4](https://user-images.githubusercontent.com/108627530/211439090-6fd845c0-13ec-46f4-a62d-d1035ad34da2.svg)
